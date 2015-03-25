@@ -1,5 +1,6 @@
 package com.trainer.g14.g_trainer;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
 import android.support.v7.app.ActionBar;
@@ -249,7 +250,9 @@ public class NavigationDrawerFragment extends Fragment {
             return true;
         }
 
-        /*if (item.getItemId() == R.id.action_example) {
+        /*if (item.getItemId() == R.id.action_settings) {
+            Intent intent = new Intent(getActivity(), SettingsActivity.class);
+            startActivity(intent);
             Toast.makeText(getActivity(), "Example action.", Toast.LENGTH_SHORT).show();
             return true;
         }*/

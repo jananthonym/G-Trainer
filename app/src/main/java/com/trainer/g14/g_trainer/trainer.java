@@ -20,7 +20,6 @@ public class trainer extends ActionBarActivity {
         // Create the text view
         TextView textView = (TextView) findViewById(R.id.name);
         textView.setText(type);
-
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
     }
 
